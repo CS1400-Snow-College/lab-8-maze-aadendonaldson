@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\bin\Debug\net8.0\lab-8-maze-aadendonaldson.exe
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\bin\Debug\net8.0\lab-8-maze-aadendonaldson.deps.json
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\bin\Debug\net8.0\lab-8-maze-aadendonaldson.runtimeconfig.json
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\bin\Debug\net8.0\lab-8-maze-aadendonaldson.dll
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\bin\Debug\net8.0\lab-8-maze-aadendonaldson.pdb
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\obj\Debug\net8.0\lab-8-maze-aadendonaldson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\obj\Debug\net8.0\lab-8-maze-aadendonaldson.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\obj\Debug\net8.0\lab-8-maze-aadendonaldson.AssemblyInfo.cs
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\obj\Debug\net8.0\lab-8-maze-aadendonaldson.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\obj\Debug\net8.0\lab-8-maze-aadendonaldson.sourcelink.json
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\obj\Debug\net8.0\lab-8-maze-aadendonaldson.dll
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\obj\Debug\net8.0\refint\lab-8-maze-aadendonaldson.dll
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\obj\Debug\net8.0\lab-8-maze-aadendonaldson.pdb
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\obj\Debug\net8.0\lab-8-maze-aadendonaldson.genruntimeconfig.cache
+C:\Users\User\Desktop\my-code-dir\lab-8-maze-aadendonaldson\obj\Debug\net8.0\ref\lab-8-maze-aadendonaldson.dll
