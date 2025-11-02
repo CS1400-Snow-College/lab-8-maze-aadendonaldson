@@ -44,6 +44,12 @@ do
         break;
     }
     TryMove(Console.CursorTop, Console.CursorLeft, mapRows);
+    if (mapRows[Console.CursorTop][Console.CursorLeft] == '*')
+    {
+        Console.Clear();
+        Console.WriteLine("Hooray, you win! Go Home!");
+        break;
+    }
 
 
 }
