@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Data;
 using System.IO;
+using System.Runtime.CompilerServices;
 using System.Security.AccessControl;
 using System.Security.Cryptography.X509Certificates;
 Console.WriteLine("Hello, World!");
@@ -15,35 +16,32 @@ foreach (string row in mapRows)
 }
 Console.SetCursorPosition(0, 0);
 
+
 do
 {
     var pressedKey = Console.ReadKey(true).Key;
+
     if (pressedKey == ConsoleKey.UpArrow)
     {
-        Console.CursorTop--;
-
-
+        TryMove(Console.CursorTop - 1, Console.CursorLeft, mapRows);
     }
     else if (pressedKey == ConsoleKey.DownArrow)
     {
-        Console.CursorTop++;
-
+        TryMove(Console.CursorTop + 1, Console.CursorLeft, mapRows);
     }
     else if (pressedKey == ConsoleKey.LeftArrow)
     {
-        Console.CursorLeft--;
-
+        TryMove(Console.CursorTop, Console.CursorLeft - 1, mapRows);
     }
     else if (pressedKey == ConsoleKey.RightArrow)
     {
-        Console.CursorLeft++;
-
+        TryMove(Console.CursorTop, Console.CursorLeft + 1 , mapRows);
     }
     else if (pressedKey == ConsoleKey.Escape)
     {
         break;
     }
-    TryMove(Console.CursorTop, Console.CursorLeft, mapRows);
+
     if (mapRows[Console.CursorTop][Console.CursorLeft] == '*')
     {
         Console.Clear();
@@ -55,17 +53,17 @@ do
 }
 while (true);
 
-static void TryMove (int proposedTop, int proposedLeft, string[] mazeRows)
+static void TryMove(int proposedTop, int proposedLeft, string[] mazeRows)
 {
-
-    
-    if (proposedTop > 0 && proposedTop < mazeRows.Length)
+    if (proposedTop >= 0 && proposedTop < mazeRows.Length )
     {
-        if (proposedLeft > 0 && proposedLeft < mazeRows.Length)
+        if (proposedLeft >= 0 && proposedLeft < mazeRows[proposedTop].Length)
         {
-            Console.CursorTop = proposedTop;
-            Console.CursorLeft = proposedTop;
+            if ( mazeRows[proposedTop][proposedLeft] != '#')
+            {
+                Console.CursorTop = proposedTop;
+                Console.CursorLeft = proposedLeft;
+            }
         }
     }
 }
-
